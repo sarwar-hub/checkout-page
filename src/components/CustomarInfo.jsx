@@ -20,7 +20,7 @@ const CustomarInfo = () => {
         zip: '',
         phone: '',
     });
-    console.log(shippingData);
+   
     const handleChange = (e) => {
         const { name, value } = e.target;
         setShippingData((prevFormData) => ({
@@ -42,7 +42,7 @@ const CustomarInfo = () => {
         town: '',
         zip: '',
     });
-    console.log(billingData);
+ 
 
     const handleChange2 = (e) => {
         const { name, value } = e.target;
@@ -59,7 +59,7 @@ const CustomarInfo = () => {
 
     // billing details
     const [billingDetails, setBillingDetails] = useState(shippingData);
-    console.log(billingDetails);
+
 
     // conditional data for billing details
     useEffect(() => {

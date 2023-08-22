@@ -23,9 +23,9 @@ const PaymentInfo = () => {
                     <button className="py-2 px-4 rounded-lg border-2 border-slate-300 transition md:font-semibold hover:border-slate-700 w-1/4">Get Off</button>
                 </div>
             </div>
-            <div className="text-xl flex justify-between p-3">
+            <div className="text-xl flex justify-between p-3 bg-gray-100 mt-2 rounded-md">
                 <h4 className="font-semibold">Sub Total</h4>
-                <span className="font-semibold">$ {100}</span>
+                <span className="font-semibold">${100}</span>
             </div>
             <div></div>
         </div>

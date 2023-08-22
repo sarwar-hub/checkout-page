@@ -1,6 +1,6 @@
 
 const CartItem = ({item}) => {
-    console.log(item);
+
     return (
         <>
         <div className="flex">
@@ -9,10 +9,10 @@ const CartItem = ({item}) => {
                 <span className="absolute -top-3 -right-3 text-gray-100 text-xs bg-slate-600 py-1 px-2 rounded-lg">{item.quantity}</span>
             </div>
             <div className="flex-grow ml-5">
-                <span className="font-semibold">{item.name}</span>
+                <span className="md:font-semibold">{item.name}</span>
             </div>
             <div>
-                <span>$ {parseFloat(item.price)*parseFloat(item.quantity)}</span>
+                <span>${parseFloat(item.price)*parseFloat(item.quantity)}</span>
             </div>
         </div> <hr className="my-5 border-gray-400" />
         </>
